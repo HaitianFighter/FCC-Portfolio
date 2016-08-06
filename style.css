@@ -2,28 +2,124 @@
 .navbar-default{
   background-color: #6ed3cf;
   }
-
+.navbar-header {
+  float: left;
+  padding: 5px;
+}
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #fff;
-    font-size: 24px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Lobster;
 }
-
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #58a8a5;
-    color: white;
+  background-color: #58a8a5;
+  color: white;
 }
-
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-color: #58a8a5;
+  background-color: #58a8a5;
 }
-
 .navbar-default .navbar-nav > li > a {
-   color: white; /*Change active text color here*/
+  color: white; /*Change active text color here*/
+  margin: 5px;
+}
+.anchor:target {
+  padding-top: 50px;
 }
 
 /*-----------------------------------------------------*/
+/*This is code for sticky footer styling*/
+html, body {
+  height: 100%;
+}
+.container {
+  min-height: 100%;
+  padding-top: 75px;
+  background-color: #e1e8f0;
+}
+.site-footer {
+  height: 115px;
+  background: #9068be;
+}
+/*-----------------------------------------------------*/
+/*This is footer styling*/
+#credit {
+  float: left;
+  margin-left: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+#social {
+  float: right;
+  margin-right: 20px;
+  color: #ffffff;
+}
+.btn-group {
+  margin-left: 30px;
+}
+.fa-linkedin-square, .fa-twitter, .fa-github-square {
+  color: #FF7F29;
+}
+.fa-fire {
+  color: #FF7F29;
+}
+/*-----------------------------------------------------*/
+/*This is styling for the main section*/
+body{
+  background-color: #878b90;
+}
+#profileText {
+  margin-left: 20px;
+  text-align: center;
+}
+#profilePic {
+  margin-left: 50px;
+  width: 250px;
+  height: 250px;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 38px;
+}
+h2 {
+  text-align: center;
+}
+.sectionDivide {
+   border-color: black;
+   height: 10px;
+	 border: 0;
+	 box-shadow: 0 10px 10px -10px #666565 inset;
+}
+.titleLine {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    width: 35%;
+}
+.titleLine:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #e1e8f0;
+}
+#portPics {
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+  margin: 33px;
+}
+#contactText {
+  text-align: center;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
